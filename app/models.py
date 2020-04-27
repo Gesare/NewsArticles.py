@@ -1,7 +1,8 @@
-class Source:
+class Sources:
     '''
-    Class to create the news source instances. 
+    Sources class to define Sources Objects
     '''
+
     def __init__(self,id,name,description,url,category,country,language):
         self.id =id
         self.name = name
@@ -11,11 +12,9 @@ class Source:
         self.country = country
         self.language = language
 
- 
-        
-class News_Article:
+class Articles:
     '''
-    Class to create the news article instances. 
+    Articles class to define articles objects
     '''
     def __init__(self,id,author,title,description,url,image,date):
         self.id = id
