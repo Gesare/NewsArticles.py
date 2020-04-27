@@ -42,7 +42,7 @@ As a user I would like to:
 ### Cloning
 * In your terminal:
         
-        $ git clone https://github.com/sokkyyy/news-highlight.git
+        $ git clone https://github.com/Gesare/NewsArticles.py
         $ cd news-highlight
 
 ## Running the Application
